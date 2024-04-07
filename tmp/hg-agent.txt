@@ -18,3 +18,24 @@
     '\n' +
     "Ce programme s'insère dans une approche pédagogique visant à équilibrer l'apprentissage factuel avec le développement des compétences critiques et analytiques des élèves."
 }
+
+{
+  input: 'Quelles sont les compétences à acquérir en histoire-géographie en seconde ?',
+  output: 'En histoire-géographie au niveau seconde, les élèves doivent acquérir des compétences et des méthodes spécifiques, ainsi que développer leurs connaissances. Ces compétences sont travaillées et consolidées de façon progressive pour assurer une totale compréhension de la matière. Voici les compétences clés qui doivent être développées :\n' +
+    '\n' +
+    '1. Maîtrise de connaissances fondamentales en histoire et en géographie.\n' +
+    '2. Capacité à se confronter à des sources variées et à les analyser de manière critique.\n' +
+    '3. Compétence pour analyser des documents tels que des cartes, textes, iconographies, ou vidéos.\n' +
+    '4. Aptitude à prendre des notes de manière efficace.\n' +
+    '5. Capacité à réaliser des croquis et à travailler de manière autonome.\n' +
+    '\n' +
+    'Pour acquérir ces compétences, les élèves :\n' +
+    '\n' +
+    '- Reçoivent des connaissances transmises par les enseignants tout en pratiquant une écoute active.\n' +
+    '- Étudient des sources et documents variés pour une analyse approfondie et critique.\n' +
+    "- Développent des compétences orales et pratiquent l'argumentation pour aiguiser leur pensée et articuler clairement leur raisonnement.\n" +
+    '\n' +
+    "L'enseignement en histoire-géographie complète également les savoirs acquis dans d'autres matières, en particulier dans l’enseignement moral et civique ainsi que dans les enseignements de spécialité comme l’histoire-géographie, géopolitique et sciences politiques.\n" +
+    '\n' +
+    "Il est important que ces apprentissages s'appuient sur les bases acquises au collège, en introduisant de nouveaux concepts plus complexes et en renforçant les capacités de réflexion, de curiosité et d'analyse, afin de développer l'autonomie des élèves. La prise de conscience des grands bouleversements mondiaux et de leurs conséquences territoriales est également un point essentiel du programme de seconde."
+}
