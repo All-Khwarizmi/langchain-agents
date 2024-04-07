@@ -1,0 +1,28 @@
+{
+  "name": "agent-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.ts",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch ./src/main.ts",
+    "build": "tsx build ./src/main.ts",
+    "start": "node ./dist/main.js",
+    "dry": "tsx ./src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/openai": "^0.0.26",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.1.31",
+    "langsmith": "^0.1.14",
+    "openai": "^4.33.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.4"
+  }
+}
