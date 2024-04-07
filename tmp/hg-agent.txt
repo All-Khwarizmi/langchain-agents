@@ -1,0 +1,20 @@
+{
+  input: 'What is the Histoire-Géographie programme for Seconde students?',
+  output: "Le programme d'histoire-géographie pour les élèves de seconde générale et technologique en France est construit autour de plusieurs objectifs principaux :\n" +
+    '\n' +
+    '1. **Consolider les acquis de la scolarité obligatoire** : Renforcer les connaissances et compétences acquises au collège.\n' +
+    '  \n' +
+    '2. **Nourrir la culture générale des élèves** : Enrichir leur bagage intellectuel et culturel pour leur éducation et leur future intégration dans la société.\n' +
+    '  \n' +
+    '3. **Étudier la formation du monde moderne** : Comprendre les grandes évolutions qui ont façonné le monde contemporain.\n' +
+    '\n' +
+    "Le programme est organisé de manière chronologique et permet différentes approches permettant l'enseignement de l'histoire et de la géographie au lycée. Il est structuré de manière à développer chez les élèves une meilleure compréhension des faits historiques et des situations géographiques, à mettre en relation des événements de différentes natures et époques, et à confronter leurs connaissances avec ce qu'ils entendent, lisent et vivent.\n" +
+    '\n' +
+    "Les compétences travaillées et les méthodes acquises sont cruciales pour le développement d'une pensée critique chez les élèves, incluant la capacité à analyser et à comprendre les différents facteurs qui influencent les événements et les actions des individus et des collectivités, à court, moyen et long terme.\n" +
+    '\n' +
+    "Les élèves sont encouragés à replacer les actions humaines et les faits dans leur contexte et leur époque, ce qui contribue non seulement à leur culture générale mais aussi à leur sens de l'appartenance à l'histoire de la nation, de l'Europe et du monde, ainsi qu'à leur formation civique.\n" +
+    '\n' +
+    "Le programme en classe de seconde, d'une durée de 48 heures, a pour thème principal « Grandes étapes de la formation du monde moderne », et est accompagné de « points de passage et d'ouverture » qui apportent une dimension concrète à l'histoire. Ces points peuvent donner lieu à des travaux de recherche documentaire et à des restitutions orales et écrites, flexiblement gérés par le professeur.\n" +
+    '\n' +
+    "Ce programme s'insère dans une approche pédagogique visant à équilibrer l'apprentissage factuel avec le développement des compétences critiques et analytiques des élèves."
+}

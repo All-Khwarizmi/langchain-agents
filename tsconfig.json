@@ -1,9 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es2016",                         
-    "module": "commonjs",                                
-    "resolveJsonModule": true,                       
-    "esModuleInterop": true,                           
-    "strict": true,                                          "skipLibCheck": true                               
-  }
+     "outDir": "./dist",
+    "target": "es2017",
+    "module": "NodeNext", 
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    
+  },
+  "exclude": ["node_modules"]                              
 }
