@@ -23,3 +23,5 @@ export const EMBEDDINGS = new OpenAIEmbeddings();
 export const LLM_MODEL = new ChatOpenAI({
   modelName: MODEL_NAME,
 });
+
+export const BASE_VECTOR_STORE_PATH = `src/data/vector_stores/`;
