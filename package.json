@@ -17,6 +17,7 @@
   "dependencies": {
     "@langchain/community": "^0.0.44",
     "@langchain/core": "^0.1.54",
+    "@langchain/langgraph": "^0.0.12",
     "@langchain/openai": "^0.0.26",
     "@types/uuid": "^9.0.8",
     "dotenv": "^16.4.5",

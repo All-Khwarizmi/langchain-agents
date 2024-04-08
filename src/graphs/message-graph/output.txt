@@ -1,0 +1,33 @@
+{
+  graph: MessageGraph {
+    nodes: {},
+    edges: Set(0) {},
+    branches: {},
+    entryPoint: undefined,
+    compiled: false,
+    channels: { __root__: [BinaryOperatorAggregate] }
+  }
+}
+{
+  graph: MessageGraph {
+    nodes: { input: [RunnableLambda], output: [RunnableLambda] },
+    edges: Set(2) { [Array], [Array] },
+    branches: {},
+    entryPoint: 'input',
+    compiled: true,
+    channels: {
+      __root__: [BinaryOperatorAggregate],
+      'input:inbox': [LastValue],
+      'output:inbox': [LastValue],
+      input: [LastValue],
+      output: [LastValue],
+      '__start__:inbox': [LastValue],
+      __start__: [LastValue],
+      __end__: [LastValue],
+      isLastStep: [LastValue]
+    }
+  }
+}
+{
+  res: [ { originalMessage: 'hello' }, 'input level', 'output level' ]
+}

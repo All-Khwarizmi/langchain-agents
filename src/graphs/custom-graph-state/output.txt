@@ -1,0 +1,25 @@
+{
+  graph: StateGraph {
+    nodes: { input: [RunnableLambda], toUppercase: [RunnableLambda] },
+    edges: Set(2) { [Array], [Array] },
+    branches: {},
+    entryPoint: 'input',
+    compiled: true,
+    channels: {
+      originalMessage: [LastValue],
+      modifiedMessage: [LastValue],
+      output: [BinaryOperatorAggregate],
+      'input:inbox': [LastValue],
+      'toUppercase:inbox': [LastValue],
+      input: [LastValue],
+      toUppercase: [LastValue],
+      '__start__:inbox': [LastValue],
+      __start__: [LastValue],
+      __end__: [LastValue],
+      isLastStep: [LastValue]
+    }
+  }
+}
+{
+  res: { originalMessage: 'hello', modifiedMessage: 'HELLO', output: null }
+}

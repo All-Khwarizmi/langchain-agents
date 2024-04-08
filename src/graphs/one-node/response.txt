@@ -1,0 +1,48 @@
+[
+  HumanMessage {
+    lc_serializable: true,
+    lc_kwargs: {
+      content: "Quelle est l'origine de l'espagnol?",
+      additional_kwargs: {},
+      response_metadata: {}
+    },
+    lc_namespace: [ 'langchain_core', 'messages' ],
+    content: "Quelle est l'origine de l'espagnol?",
+    name: undefined,
+    additional_kwargs: {},
+    response_metadata: {}
+  },
+  AIMessage {
+    lc_serializable: true,
+    lc_kwargs: {
+      content: "L'espagnol, également appelé castillan (en espagnol : castellano), a son origine dans la péninsule Ibérique, où il s'est développé à partir de plusieurs dialectes latins parlés par les populations après la chute de l'Empire romain. La langue espagnole trouve ses racines dans le latin vulgaire, qui était la forme du latin utilisée dans la conversation quotidienne par le peuple, par opposition au latin classique, la langue de la littérature et de l'éloquence officielle.\n" +
+        '\n' +
+        "Après la conquête romaine de la péninsule Ibérique au 3e siècle avant notre ère, le latin est devenu la langue dominante dans la région, supplantant les langues précédemment parlées, telles que l'ibérique, le celtibère et d'autres. Au fil des siècles, à mesure que l'Empire romain s'affaiblissait et finalement s'effondrait, le latin vulgaire parlé en Hispanie (le nom romain de la péninsule Ibérique) a commencé à évoluer de façon indépendante et à se différencier des autres formes de latin parlées ailleurs.\n" +
+        '\n' +
+        "L'invasion de la péninsule Ibérique par les tribus germaniques au Ve siècle (notamment les Wisigoths), ainsi que plus tard par les Arabes et les Berbères au VIIIe siècle, a contribué à influencer la langue qui évoluait déjà. Malgré ces invasions, le latin est resté la langue de la culture et de la religion, mais il a intégré des éléments de ces autres langues.\n" +
+        '\n' +
+        `Le castillan a commencé à émerger en tant que langue distincte au Moyen Âge, dans le Royaume de Castille, une des divisions politiques de l'Espagne. La première œuvre littéraire majeure en castillan est le "Cantar de Mio Cid", un poème épique datant d'environ 1200. Au siècle suivant, le roi Alphonse X de Castille, connu comme "le Sage", a promu l'utilisation du castillan dans l'administration, la science et la littérature.\n` +
+        '\n' +
+        "La Reconquista, le long processus de reprise des territoires ibériques sur les musulmans, qui s'est terminé en 1492 avec la prise de Grenade, a permis au castillan de devenir la langue dominante dans toute la péninsule.\n" +
+        '\n' +
+        "La découverte de l'Amérique par Christophe Colomb en 1492 et les conquêtes qui ont suivi ont étendu l'utilisation de l'espagnol au Nouveau Monde, où il est devenu une langue majeure. L'expansion de l'empire espagnol a ainsi diffusé la langue sur des continents entiers, faisant de l'espagnol une langue mondiale avec des millions de locuteurs natifs à travers l'Amérique latine, l'Espagne et d'autres parties du monde.",
+      additional_kwargs: [Object],
+      response_metadata: {}
+    },
+    lc_namespace: [ 'langchain_core', 'messages' ],
+    content: "L'espagnol, également appelé castillan (en espagnol : castellano), a son origine dans la péninsule Ibérique, où il s'est développé à partir de plusieurs dialectes latins parlés par les populations après la chute de l'Empire romain. La langue espagnole trouve ses racines dans le latin vulgaire, qui était la forme du latin utilisée dans la conversation quotidienne par le peuple, par opposition au latin classique, la langue de la littérature et de l'éloquence officielle.\n" +
+      '\n' +
+      "Après la conquête romaine de la péninsule Ibérique au 3e siècle avant notre ère, le latin est devenu la langue dominante dans la région, supplantant les langues précédemment parlées, telles que l'ibérique, le celtibère et d'autres. Au fil des siècles, à mesure que l'Empire romain s'affaiblissait et finalement s'effondrait, le latin vulgaire parlé en Hispanie (le nom romain de la péninsule Ibérique) a commencé à évoluer de façon indépendante et à se différencier des autres formes de latin parlées ailleurs.\n" +
+      '\n' +
+      "L'invasion de la péninsule Ibérique par les tribus germaniques au Ve siècle (notamment les Wisigoths), ainsi que plus tard par les Arabes et les Berbères au VIIIe siècle, a contribué à influencer la langue qui évoluait déjà. Malgré ces invasions, le latin est resté la langue de la culture et de la religion, mais il a intégré des éléments de ces autres langues.\n" +
+      '\n' +
+      `Le castillan a commencé à émerger en tant que langue distincte au Moyen Âge, dans le Royaume de Castille, une des divisions politiques de l'Espagne. La première œuvre littéraire majeure en castillan est le "Cantar de Mio Cid", un poème épique datant d'environ 1200. Au siècle suivant, le roi Alphonse X de Castille, connu comme "le Sage", a promu l'utilisation du castillan dans l'administration, la science et la littérature.\n` +
+      '\n' +
+      "La Reconquista, le long processus de reprise des territoires ibériques sur les musulmans, qui s'est terminé en 1492 avec la prise de Grenade, a permis au castillan de devenir la langue dominante dans toute la péninsule.\n" +
+      '\n' +
+      "La découverte de l'Amérique par Christophe Colomb en 1492 et les conquêtes qui ont suivi ont étendu l'utilisation de l'espagnol au Nouveau Monde, où il est devenu une langue majeure. L'expansion de l'empire espagnol a ainsi diffusé la langue sur des continents entiers, faisant de l'espagnol une langue mondiale avec des millions de locuteurs natifs à travers l'Amérique latine, l'Espagne et d'autres parties du monde.",
+    name: undefined,
+    additional_kwargs: { function_call: undefined, tool_calls: undefined },
+    response_metadata: { tokenUsage: [Object], finish_reason: 'stop' }
+  }
+]
