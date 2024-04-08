@@ -1,6 +1,6 @@
 import { END, MessageGraph } from "@langchain/langgraph";
 import { BaseMessage } from "langchain/schema";
-import { LLM_MODEL } from "../../config/constants.js";
+import { LLM_MODEL } from "../../../config/constants.js";
 import { promptCreator, humanMessageCreator } from "../index.js";
 
 (async () => {

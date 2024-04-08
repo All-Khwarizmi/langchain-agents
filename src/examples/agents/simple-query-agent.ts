@@ -8,9 +8,9 @@ import {
   SPLITTER,
   EMBEDDINGS,
   LLM_MODEL,
-} from "../config/constants";
-import { hgRetriever } from "../loasders/pdf-loader";
-import { searchTool } from "../tools/tavily";
+} from "../../config/constants.js";
+import { hgRetriever } from "../../loaders/pdf-loader.js";
+import { searchTool } from "../../tools/tavily.js";
 
 export async function simpleAgentQuery({ query }: { query: string }) {
   const retriever = await hgRetriever({

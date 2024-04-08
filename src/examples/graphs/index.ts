@@ -2,7 +2,7 @@ import { createOpenAIFunctionsAgent } from "langchain/agents";
 import { ChatOpenAI } from "@langchain/openai";
 import { TavilySearchResults } from "@langchain/community/tools/tavily_search";
 import { ChatPromptTemplate, PromptTemplate } from "@langchain/core/prompts";
-import { LLM_MODEL } from "../config/constants.js";
+import { LLM_MODEL } from "../../config/constants.js";
 import { MessageGraph } from "@langchain/langgraph";
 import { HumanMessage } from "langchain/schema";
 
