@@ -14,12 +14,38 @@ Modules:
 
 */
 
-import { HNSWLib } from "@langchain/community/vectorstores/hnswlib";
-import { OpenAIEmbeddings } from "@langchain/openai";
-import { AIMessage, BaseMessage, HumanMessage } from "langchain/schema";
-import { BASE_CHAT_HISTORY } from "./chat-history.js";
-import { BASE_VECTOR_STORE_PATH, EMBEDDINGS } from "../../config/constants.js";
+import { getChromaCollection } from "./chat-history-vector-store.js";
 
+export type STINodes =
+  | "AgentHistorique"
+  | "AgentApprenant"
+  | "AgentDomaine"
+  | "AgentRapporteur"
+  | "AgentSynthetiseur"
+  | "AgentEvaluateur"
+  | "AgentConfiance"
+  | "AgentExpert";
 
-/* MODULE: retrieve chat history */
-export async function retrieveChatHistory() {}
+export interface STIState {
+  userQuery: string;
+  steps: string[];
+  nextNode: STINodes;
+  messages: string[];
+}
+
+export async function historicAgent(state: STIState) {
+  console.log("---CALL AGENT---");
+  const collection = await getChromaCollection({ name: "chat-history" });
+  const queryTexts = [state.userQuery];
+  const nResults = 10;
+  const queryResponse = await collection.query({
+    queryTexts,
+    nResults,
+  });
+  state.messages = queryResponse.documents.flatMap((doc) =>
+    doc.map((d) => d || "")
+  );
+  state.nextNode = "AgentSynthetiseur";
+  state.steps.push("Get User History");
+  return state;
+}

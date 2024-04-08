@@ -29,3 +29,14 @@ export const BASE_CHAT_HISTORY = [
     "Je veux examiner comment la mondialisation a influencé les ingrédients utilisés dans la cuisine italienne traditionnelle."
   ),
 ];
+
+export const BASE_CHAT_HISTORY_ARR = [
+  "Salut, j'ai besoin d'aide pour mon devoir d'histoire sur la mondialisation. Je ne sais pas par où commencer.",
+  "Bonjour ! Je serais ravie de t'aider avec ton devoir sur la mondialisation. Pour commencer, pourrais-tu me dire ce que tu sais déjà sur le sujet ?",
+  "Eh bien, je sais que la mondialisation concerne les échanges entre les pays et qu'elle affecte l'économie, la culture, et la politique.",
+  "C'est un bon début ! La mondialisation implique en effet les échanges économiques, culturels, et politiques à l'échelle mondiale. Un aspect intéressant à explorer pourrait être l'impact de la mondialisation sur les différentes cultures. Qu'en penses-tu ?",
+  "Ça semble intéressant. Comment la mondialisation affecte-t-elle les cultures ?",
+  "La mondialisation peut conduire à une uniformisation culturelle, où des pratiques, des valeurs, et même des produits deviennent similaires partout dans le monde. Cependant, elle peut aussi favoriser l'échange culturel et la diversité, permettant aux cultures de s'enrichir mutuellement. Veux-tu explorer un exemple spécifique de cet impact ?",
+  "Oui, j'aimerais voir un exemple de la façon dont la mondialisation a influencé une culture spécifique.",
+  "Parfait ! Prenons l'exemple de la cuisine. La mondialisation a facilité la diffusion des cuisines du monde entier, permettant aux gens de découvrir des plats d'autres cultures. Cela peut conduire à une appréciation et une intégration de diverses traditions culinaires, enrichissant la culture locale. Comment aimerais-tu approfondir ce sujet dans ton devoir ?",
+];

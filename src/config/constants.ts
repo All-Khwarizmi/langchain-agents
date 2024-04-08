@@ -8,8 +8,9 @@ dotenv.config();
 const uniqueId = uuidv4().slice(0, 8);
 process.env.LANGCHAIN_PROJECT = `Agent - 01`;
 
-const MODEL_NAME = process.env.MODEL_NAME;
-if (!MODEL_NAME) {
+export const MODEL_NAME = process.env.MODEL_NAME;
+export const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+if (!MODEL_NAME || !OPENAI_API_KEY) {
   console.error("OPENAI_API_KEY is not set or MODEL_NAME is not set");
   process.exit(1);
 }
