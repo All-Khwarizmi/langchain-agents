@@ -149,3 +149,25 @@ chromadb.db.base.UniqueConstraintError: Collection chat-history already exists
 [32mINFO[0m:     [09-04-2024 01:28:56] 127.0.0.1:61270 - "GET /api/v1/collections/chat-history?tenant=default_tenant&database=default_database HTTP/1.1" 200
 [32mINFO[0m:     [09-04-2024 01:30:33] 127.0.0.1:61295 - "GET /api/v1/collections/chat-history?tenant=default_tenant&database=default_database HTTP/1.1" 200
 [32mINFO[0m:     [09-04-2024 01:30:34] 127.0.0.1:61295 - "POST /api/v1/collections/4539bb59-6db1-42d9-b45d-81ad2ce6a936/query HTTP/1.1" 200
+[33mWARNING[0m:  [11-04-2024 10:36:28] Python-dotenv could not parse statement starting at line 9
+[33mWARNING[0m:  [11-04-2024 10:36:28] Python-dotenv could not parse statement starting at line 12
+[33mWARNING[0m:  [11-04-2024 10:36:28] Python-dotenv could not parse statement starting at line 15
+[33mWARNING[0m:  [11-04-2024 10:36:28] Python-dotenv could not parse statement starting at line 16
+[33mWARNING[0m:  [11-04-2024 10:36:28] Python-dotenv could not parse statement starting at line 18
+[33mWARNING[0m:  [11-04-2024 10:36:28] Python-dotenv could not parse statement starting at line 19
+[33mWARNING[0m:  [11-04-2024 10:36:28] Python-dotenv could not parse statement starting at line 21
+[33mWARNING[0m:  [11-04-2024 10:36:28] Python-dotenv could not parse statement starting at line 22
+[33mWARNING[0m:  [11-04-2024 10:36:28] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+[32mINFO[0m:     [11-04-2024 10:36:28] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [11-04-2024 10:36:28] Starting component System
+[36mDEBUG[0m:    [11-04-2024 10:36:28] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [11-04-2024 10:36:28] Starting component SimpleAssignmentPolicy
+[36mDEBUG[0m:    [11-04-2024 10:36:28] Starting component SqliteDB
+[36mDEBUG[0m:    [11-04-2024 10:36:28] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [11-04-2024 10:36:28] Starting component Posthog
+[36mDEBUG[0m:    [11-04-2024 10:36:28] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [11-04-2024 10:36:28] Starting component SegmentAPI
+[32mINFO[0m:     [11-04-2024 10:36:28] Started server process [[36m38771[0m]
+[32mINFO[0m:     [11-04-2024 10:36:28] Waiting for application startup.
+[32mINFO[0m:     [11-04-2024 10:36:28] Application startup complete.
+[32mINFO[0m:     [11-04-2024 10:36:28] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)

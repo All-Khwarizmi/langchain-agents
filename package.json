@@ -9,7 +9,8 @@
     "dev": "tsx watch ./src/main.ts",
     "build": "tsx build ./src/main.ts",
     "start": "node ./dist/main.js",
-    "dry": "tsx ./src/main.ts"
+    "dry": "tsx ./src/main.ts",
+    "chroma": "chroma run --path /Users/jasonsuarez/App/agent-01/src/data/chroma-db"
   },
   "keywords": [],
   "author": "",
