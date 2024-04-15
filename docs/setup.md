@@ -48,25 +48,3 @@ Set the following scripts in your package.json
 }
 ```
 
-Log your first trace
-We provide multiple ways to log traces to LangSmith. Below, we'll highlight how to use traceable. See more on the Integrations page.
-
-Python
-TypeScript
-import { OpenAI } from "openai";
-import { traceable } from "langsmith/traceable";
-import { wrapOpenAI } from "langsmith/wrappers";
-
-// Auto-trace LLM calls in-context
-const client = wrapOpenAI(new OpenAI());
-// Auto-trace this function
-const pipeline = traceable(async (user_input) => {
-    const result = await client.chat.completions.create({
-        messages: [{ role: "user", content: user_input }],
-        model: "gpt-3.5-turbo",
-    });
-    return result.choices[0].message.content;
-});
-
-await pipeline("Hello, world!")
-// Out: Hello there! How can I assist you today?
